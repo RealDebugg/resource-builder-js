@@ -1,0 +1,21 @@
+{
+    "name": "_boilerplate",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "build": "webpack --mode production",
+        "watch": "webpack --mode development --watch"
+    },
+    "dependencies": {
+        "glob": "^8.0.3",
+        "javascript-obfuscator": "^4.0.0",
+        "path": "^0.12.7",
+        "remove-files-webpack-plugin": "^1.5.0",
+        "webpack": "^5.75.0",
+        "webpack-obfuscator": "^3.5.1"
+    },
+    "devDependencies": {
+        "webpack-cli": "^5.0.1"
+    }
+}
